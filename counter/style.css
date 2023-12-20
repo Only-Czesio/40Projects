@@ -1,0 +1,43 @@
+* {
+    box-sizing :border-box;
+    margin : 0;
+    user-select: none;
+}
+body {
+    background-color: #711DB0;
+}
+
+h1 {
+    font-size : 48px;
+    color: #C21292;
+
+}
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.numHolder {
+    font-size: 100px;
+}
+
+.button {
+    display:inline-block;
+    cursor: pointer;
+    border: 2px solid EF4040;
+    border-radius: 2rem;
+    width: 5rem;
+    text-align: center;
+}
+.button:hover {
+    background-color: #FFA732;
+    transition: 0.5s;
+    box-shadow: 0 0 0 4px #C21292;
+}
+.button:active {
+    background-color: #C21292;
+}
